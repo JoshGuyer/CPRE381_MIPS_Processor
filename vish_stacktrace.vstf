@@ -1,0 +1,43 @@
+# Current time Wed Oct 07 11:43:04 2020
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "2020.2"
+# Version = "2020.04"
+# Date = "Apr 19 2020"
+# Platform = win64
+
+Exception c0000005 has occurred at address 6ba697f7. Traceback:
+# 0    0x6ba697f7: 'Tcl_ScanCountedElement + 0x77'
+# 1    0x6ba6ba77: 'Tcl_DStringAppendElement + 0x57'
+# 2    0x402cb4c8: 'Mtirpc_Init + 0x13dbc8'
+# 3    0x402cca24: 'Mtirpc_Init + 0x13f124'
+# 4    0x6b977103: 'TclNRRunCallbacks + 0x63'
+# 5    0xdfda0d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 6    0xdfda1f5b: 'Itcl_ExecMethod + 0x23b'
+# 7    0xdfda9a19: 'Itcl_EvalArgs + 0x1c9'
+# 8    0xdfda4cf1: 'Itcl_HandleInstance + 0x2c1'
+# 9    0x6b977103: 'TclNRRunCallbacks + 0x63'
+# 10   0xdfda0d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 11   0xdfda1f5b: 'Itcl_ExecMethod + 0x23b'
+# 12   0xdfda9a19: 'Itcl_EvalArgs + 0x1c9'
+# 13   0xdfda4cf1: 'Itcl_HandleInstance + 0x2c1'
+# 14   0x6b977103: 'TclNRRunCallbacks + 0x63'
+# 15   0x6b843537: 'Tk_MainEx + 0x6be7'
+# 16   0x6b83b41c: 'Tk_PhotoGetSize + 0xa6ac'
+# 17   0x6b83b5ac: 'Tk_PhotoGetSize + 0xa83c'
+# 18   0x6b7942f4: 'TkWinHandleMenuEvent + 0x1144'
+# 19   0x6b84276a: 'Tk_MainEx + 0x5e1a'
+# 20   0x6b977103: 'TclNRRunCallbacks + 0x63'
+# 21   0x6ba62b84: 'TclServiceIdle + 0xa74'
+# 22   0x6ba6217c: 'TclServiceIdle + 0x6c'
+# 23   0x6ba2a9f3: 'Tcl_DoOneEvent + 0x193'
+# 24   0x6b7faee5: 'Tk_MainLoop + 0x25'
+# 25   0x6b83d282: 'Tk_MainEx + 0x932'
+# 26   0x401b12fa: 'Mtirpc_Init + 0x239fa'
+# 27   0x401b3c15: 'Mtirpc_Init + 0x26315'
+# 28   0x4070066f: 'Tclsqlite3_Init + 0x1df9f'
+# 29   0xe9267bd4: 'BaseThreadInitThunk + 0x14'
+# 30   0xea00ce51: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
